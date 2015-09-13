@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="styles/main.sass.sass.css">
-	<title>To Do List</title>
-</head>
-<body>
-<form>
-	<h1 id="header">TO DO LIST!</h1>
-	<input id="inputBox" type="text">
-	<button id="button">CLICK TO ADD!</button>
-	<div id="textBox"></div>
-</form>
 
-<script type="text/javascript" src="scripts/main.js"></script>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/main.sass.sass.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <form>
+        <h1 id="header">TO DO LIST!</h1>
+        <div id="container">
+            <input id="inputBox" type="text">
+            <input id="button" type="button" value="CLICK TO ADD!" onclick="addItem();">
+        </div>
+        <div id="textBox"></div>
+    </form>
+    <script type="text/javascript" src="scripts/main.js"></script>
 </body>
+
 </html>
